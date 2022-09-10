@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="List view-1"
+        android:id="@+id/id_listview_1"
+        />
+
+    <item
+        android:title="Recycler view-1"
+        android:id="@+id/id_recyclerview_1"
+        />
+
+    <item
+        android:title="Listview view-2"
+        android:id="@+id/id_listview_2"
+        />
+    <item
+        android:title="Recycler view-2"
+        android:id="@+id/id_recyclerview_2"
+        />
+
+    <item
+        android:title="Grid View"
+        android:id="@+id/id_gridview"
+        />
+
+</menu>

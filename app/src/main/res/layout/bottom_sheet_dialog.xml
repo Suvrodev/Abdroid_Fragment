@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CB342">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="This is Bottom Sheet"
+            android:gravity="center"
+            android:background="#00ACC1"
+            android:padding="10sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Give ID"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Give ID"
+            />
+
+<!--        <Button-->
+<!--            android:id="@+id/thisisbaal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Click"-->
+<!--            android:gravity="center"-->
+<!--            style="@style/Widget.AppCompat.ActionBar.TabText"-->
+<!--            />-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/thisisbaal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="Click"
+            android:textColor="#ffff"
+            android:backgroundTint="#F4511E"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

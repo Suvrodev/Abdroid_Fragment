@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Option">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Activity Like App"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#00ACC1"
+        android:padding="10sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/id_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List"
+            />
+
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/id_image_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image"
+            />
+
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/id_task_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/id_tl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Base"
+            />
+
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/id_tl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler"
+            />
+
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/id_tl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gridview"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

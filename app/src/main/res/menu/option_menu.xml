@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/id_option_home"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/id_option_setting"
+        android:title="Setting"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/id_option_feedback"
+        android:title="Feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/id_option_share"
+        android:title="Share"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/id_option_image"
+        android:title="Image"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/id_option_task"
+        android:title="Task"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/id_option_activity"
+        android:title="Another Activity"
+        app:showAsAction="never"
+        />
+</menu>

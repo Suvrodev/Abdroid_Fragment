@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/drawable/image_list_con.xml" value="0.3155" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/drawable/list_icon.xml" value="0.3155" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/activity_option.xml" value="0.33" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/activity_tab_layout.xml" value="0.3625" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/dekhajak.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__base_adapter.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__bottom_sheet.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__gridview.xml" value="0.3484375" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__image.xml" value="0.3484375" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__list_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__list_view_1.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__list_view_1__list_view2.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__list_view_1__recycler_view_2.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__listview1_listview.xml" value="0.3161231884057971" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__listview1_recyclerview.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__listview_.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__recycler_.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__task.xml" value="0.3484375" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment__test.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment_listview1.xml" value="0.18541666666666667" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment_recycler.xml" value="0.3161231884057971" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/fragment_rrcycler.xml" value="0.3484375" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/grid_sample.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/listview_sample_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/lisview_sample_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/okokok.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/sameple_baal.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/sample_.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/sampleview_for_base_and_recycler.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/suvrodeb_list_sample_recycler.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/suvrodeb_sample_recycler.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/layout/suvrodeb_sample_rycler.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/menu/bottom_nav.xml" value="0.3625" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/menu/option_menu.xml" value="0.3625" />
+        <entry key="..\:/Android/BTLLRG_BS_OCPMenu/app/src/main/res/menu/popup.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
