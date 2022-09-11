@@ -27,27 +27,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        frameLayout= (FrameLayout) findViewById(R.id.id_framelayout);
-        bottomNavigationView= (BottomNavigationView) findViewById(R.id.id_bottom_nav);
+        try {
 
-        bottomNavigationView.setOnItemSelectedListener(listener);
-        getSupportFragmentManager().beginTransaction().replace(R.id.id_framelayout,new Fragment_ListView1()).commit();
+            frameLayout = (FrameLayout) findViewById(R.id.id_framelayout);
+            bottomNavigationView = (BottomNavigationView) findViewById(R.id.id_bottom_nav);
+
+            bottomNavigationView.setOnItemSelectedListener(listener);
+            getSupportFragmentManager().beginTransaction().replace(R.id.id_framelayout, new Fragment_ListView1()).commit();
 
 
-        ///Bundle
-        Bundle bundle=getIntent().getExtras();
-        if(bundle!=null){
-            String Value=bundle.getString("k1");
-            Toast.makeText(getApplicationContext(),Value,Toast.LENGTH_SHORT).show();
-            if(Value.equalsIgnoreCase("2")){
-                bottomNavigationView.setSelectedItemId(R.id.id_bn_lrg_image);
+            ///Bundle
+            Bundle bundle = getIntent().getExtras();
+            if (bundle != null) {
+                String Value = bundle.getString("k1");
+              //  Toast.makeText(getApplicationContext(), Value, Toast.LENGTH_SHORT).show();
+                if (Value.equalsIgnoreCase("2")) {
+                    bottomNavigationView.setSelectedItemId(R.id.id_bn_lrg_image);
+                }
+                if (Value.equalsIgnoreCase("3")) {
+                    bottomNavigationView.setSelectedItemId(R.id.id_bn_task);
+                }
+                if (Value.equalsIgnoreCase("10")) {
+                    bottomNavigationView.setSelectedItemId(R.id.id_bn_lrg_image);
+                }
             }
-            if(Value.equalsIgnoreCase("3")){
-                bottomNavigationView.setSelectedItemId(R.id.id_bn_task);
-            }
-            if(Value.equalsIgnoreCase("10")){
-                bottomNavigationView.setSelectedItemId(R.id.id_bn_lrg_image);
-            }
+        }catch (Exception e){
+            //Toast.makeText(getApplicationContext(),"Problem: "+e.toString(),Toast.LENGTH_SHORT).show();
         }
 
     }
